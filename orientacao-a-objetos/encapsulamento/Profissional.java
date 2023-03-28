@@ -4,6 +4,21 @@ public class Profissional {
     private Double salario;
     private Integer id;
 
+    public Double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(Double salario) {
+        this.salario = salario;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     //acessivel por qualquer classe
     public Double salariopublic;

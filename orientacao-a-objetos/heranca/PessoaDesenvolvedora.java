@@ -36,6 +36,7 @@ public class PessoaDesenvolvedora {
 
 
     public PessoaDesenvolvedora(String nome, String stack, Double salario) {
+
     }
 
     public void codar() {

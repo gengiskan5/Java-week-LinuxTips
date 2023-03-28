@@ -4,14 +4,14 @@ public class LinuxTipsBankMain {
     public static void main(String[] args) {
 
         System.out.println("Seja bem vinda ao linux tips bank");
-        ContaCorrente ccKamila = new ContaCorrente();
-        ccKamila.consultarSaldo();
-        ccKamila.fazerPix();
+        ContaCorrente contapoupancaKamila = new ContaCorrente();
+        contapoupancaKamila.consultarSaldo();
+        contapoupancaKamila.fazerPix();
 
 
         ContaPoupanca cpKamila = new ContaPoupanca();
-        cpKamila.consultarSaldo();
-        cpKamila.fazerPix();
+        contapoupancaKamila.consultarSaldo();
+        contapoupancaKamila.fazerPix();
 
     }
 }
